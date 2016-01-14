@@ -20,3 +20,8 @@ set expandtab
 " set backup configs
 set nobackup
 set writebackup
+
+" set search configs
+set wrapscan
+set ignorecase
+set smartcase
