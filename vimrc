@@ -12,9 +12,16 @@ set list
 set listchars=tab:>.,eol:$
 
 " set tab configs
-set tabstop=4
-set shiftwidth=4
-set softtabstop=4
+if &filetype == "ruby" || &filetype == "html"
+    set tabstop=2
+    set shiftwidth=2
+    set softtabstop=2
+else
+    set tabstop=2
+    set shiftwidth=2
+    set softtabstop=2
+endif
+
 let filename = fnamemodify(expand("%"), ":t")
 if filename == "makefile" || filename == "Makefile"
     set noexpandtab
