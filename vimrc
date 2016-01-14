@@ -16,7 +16,9 @@ set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 let filename = fnamemodify(expand("%"), ":t")
-if filename != "makefile" && filename != "Makefile"
+if filename == "makefile" || filename == "Makefile"
+    set noexpandtab
+else
     set expandtab
 endif
 
