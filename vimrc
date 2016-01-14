@@ -7,6 +7,8 @@ set ruler
 
 set laststatus=2
 
+set backspace=start,eol,indent
+
 " set list configs
 set list
 set listchars=tab:>.,eol:$
