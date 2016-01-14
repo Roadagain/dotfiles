@@ -4,7 +4,7 @@ set smartindent
 
 set number
 set ruler
-
+set cursorline
 set laststatus=2
 
 set backspace=start,eol,indent
