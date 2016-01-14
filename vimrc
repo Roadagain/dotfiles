@@ -39,3 +39,4 @@ set writebackup
 set wrapscan
 set ignorecase
 set smartcase
+set incsearch
