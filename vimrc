@@ -15,7 +15,10 @@ set listchars=tab:>.,eol:$
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
-set expandtab
+let filename = fnamemodify(expand("%"), ":t")
+if filename != "makefile" && filename != "Makefile"
+    set expandtab
+endif
 
 " set backup configs
 set nobackup
