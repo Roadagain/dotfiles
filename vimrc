@@ -9,7 +9,7 @@ set laststatus=2
 
 set showmatch
 
-set wildmenu=list:full
+set wildmenu wildmode=list:full
 
 set backspace=start,eol,indent
 
