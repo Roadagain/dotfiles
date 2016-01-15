@@ -7,6 +7,8 @@ set ruler
 set cursorline
 set laststatus=2
 
+set showmatch
+
 set backspace=start,eol,indent
 
 " set list configs
