@@ -11,9 +11,11 @@ set showmatch
 
 set wildmenu wildmode=list:full
 
-set backspace=start,eol,indent
-
 set modeline
+
+" set moving cursor configs
+set backspace=start,eol,indent
+set whichwrap=b,s,h,l,<,>,~,[,]
 
 " set list configs
 set list
