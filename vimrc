@@ -9,6 +9,8 @@ set laststatus=2
 
 set showmatch
 
+set wildmenu=list:full
+
 set backspace=start,eol,indent
 
 " set list configs
