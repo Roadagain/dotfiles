@@ -13,6 +13,8 @@ set wildmenu=list:full
 
 set backspace=start,eol,indent
 
+set modeline
+
 " set list configs
 set list
 set listchars=tab:>.,eol:$
