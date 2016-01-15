@@ -27,9 +27,9 @@ if &filetype == "ruby" || &filetype == "html"
     set shiftwidth=2
     set softtabstop=2
 else
-    set tabstop=2
-    set shiftwidth=2
-    set softtabstop=2
+    set tabstop=4
+    set shiftwidth=4
+    set softtabstop=4
 endif
 
 let filename = fnamemodify(expand("%"), ":t")
