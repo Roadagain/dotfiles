@@ -79,7 +79,8 @@ endif
 
 " set backup configs
 set nobackup
-set writebackup
+set noswapfile
+set nowritebackup
 
 " set search configs
 set wrapscan
