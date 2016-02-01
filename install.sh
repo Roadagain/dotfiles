@@ -7,6 +7,6 @@ cp vimrc ~/.vimrc
 
 # gitconfig
 echo Installing gitconfig...
-cp gitconfig ~/.gitconfig
+cat gitconfig >> ~/.gitconfig
 
 echo Installation was successfully completed!
