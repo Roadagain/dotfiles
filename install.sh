@@ -12,4 +12,8 @@ sh neobundle.sh
 echo Installing gitconfig...
 cat gitconfig >> ~/.gitconfig
 
+# curlrc
+echo Installing curlrc...
+cp curlrc ~/.curlrc
+
 echo Installation was successfully completed!
