@@ -1,8 +1,3 @@
-[user]
-	name = Roadagain
-	email = ringoh72@gmail.com
-[http]
-	proxy = cproxy.okinawa-ct.ac.jp:8080
 [alias]
 	co = checkout
 	st = status
