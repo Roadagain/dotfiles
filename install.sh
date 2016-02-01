@@ -8,4 +8,8 @@ cp vimrc ~/.vimrc
 echo Installing NeoBundle...
 sh neobundle.sh
 
+# gitconfig
+echo Installing gitconfig...
+cat gitconfig >> ~/.gitconfig
+
 echo Installation was successfully completed!

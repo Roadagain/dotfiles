@@ -1,0 +1,9 @@
+[alias]
+	co = checkout
+	st = status
+[core]
+	editor = vim
+[push]
+	default = current
+[url "https://"]
+	insteadOf = git://
