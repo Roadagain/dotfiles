@@ -7,3 +7,5 @@
 ;; number mode configs
 (column-number-mode t)
 (global-linum-mode t)
+
+(show-paren-mode 1)
