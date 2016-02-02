@@ -9,3 +9,5 @@
 (global-linum-mode t)
 
 (show-paren-mode 1)
+
+(global-whitespace-mode 1)
