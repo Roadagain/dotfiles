@@ -8,6 +8,10 @@ cp vimrc ~/.vimrc
 echo Installing NeoBundle...
 sh neobundle.sh
 
+# emacs
+echo Installing emacs...
+cp emacs ~/.emacs
+
 # gitconfig
 echo Installing gitconfig...
 cat gitconfig >> ~/.gitconfig
